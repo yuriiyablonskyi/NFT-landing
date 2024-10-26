@@ -1,0 +1,50 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  padding: 40px 0 80px
+
+.subscription
+  @include flex(space-between, center)
+  padding: 60px
+  border-radius: 20px
+  background-color: $gray
+  @media (max-width: $breakpoint-large)
+    padding: 40px 30px
+  @media (max-width: $breakpoint-medium)
+    flex-direction: column
+    padding: 0
+    background-color: transparent
+
+  &__img,
+  &__content
+    border-radius: 20px
+    width: 45.7%
+    @media (max-width: $breakpoint-large)
+      width: 47.6%
+    @media (max-width: $breakpoint-medium)
+      width: 100%
+
+  &__img
+    @media (max-width: $breakpoint-medium)
+      margin-bottom: 30px
+
+  &__form
+    display: flex
+    margin-top: -20px
+    flex-direction: column
+
+  &__input
+    width: 100%
+    height: 60px
+    font-size: 16px
+    line-height: 1.4
+    padding: 0 20px
+    border: 1px solid transparent
+    background-color: $white
+    border-radius: 20px
+    transition: $transition
+    margin-bottom: 16px
+    &:focus
+      outline: none
+      border-color: $cta
+      box-shadow: 0 0 15px $cta

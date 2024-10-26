@@ -1,0 +1,84 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  background-color: $gray
+
+.footer
+  padding: 40px 0
+  @include flex(space-between, null)
+  gap: 110px
+  @media (max-width: $breakpoint-large)
+    gap: 30px
+    flex-direction: column
+
+  &__item
+    display: flex
+    flex-direction: column
+
+  &__logo
+    display: inline-block
+    margin-bottom: 20px
+    @media (max-width: $breakpoint-medium)
+      margin-bottom: 15px
+
+  &__header
+    display: inline-block
+    margin-bottom: 25px
+    font-family: 'Space Mono', system-ui
+    font-weight: 700
+    font-size: 22px
+    line-height: 1.6
+
+  &__text
+    font-size: 16px
+    line-height: 1.4
+    color: #ccc
+    margin-bottom: 10px
+
+  &__link
+    display: inline-block
+    font-size: 16px
+    line-height: 1.4
+    color: #ccc
+    max-width: 245px
+    transition: $transition
+    &:hover
+      opacity: 0.6
+    &:not(:last-child)
+      margin-bottom: 20px
+    @media (max-width: $breakpoint-medium)
+      margin-bottom: 15px
+
+  &__social
+    a:not(:last-child)
+      margin-right: 10px
+
+  &__socialIcon
+    width: 32px
+    height: 32px
+    transition: $transition
+    &:hover
+      opacity: 0.6
+      transform: scale(1.1)
+    &:not(:last-child)
+      margin-right: 10px
+
+  &__form
+    display: flex
+    flex-direction: column
+
+  &__input
+    width: 100%
+    height: 60px
+    padding: 0 20px
+    margin-bottom: 16px
+    font-size: 16px
+    line-height: 1.4
+    border: 1px solid transparent
+    background-color: $white
+    border-radius: 20px
+    transition: $transition
+    &:focus
+      outline: none
+      border-color: $cta
+      box-shadow: 0 0 15px $cta

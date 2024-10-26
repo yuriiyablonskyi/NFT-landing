@@ -1,50 +1,70 @@
-# React + TypeScript + Vite
+# 🌐 NFT Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, multilingual NFT landing page built with React and deployed on AWS, showcasing expertise in modern frontend development, responsive design, and cloud deployment.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project utilizes the following technologies:
 
-## Expanding the ESLint configuration
+- **Frontend**: React, TypeScript, SASS, CSS Modules
+- **Animations**: Framer Motion
+- **Localization**: i18n
+- **Hosting**: AWS S3, CloudFront, AWS ACM for SSL
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🌟 Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Responsive Design**: Optimized for all screen sizes
+- **Dynamic UI**: Interactive animations, countdown timer, and animated menu
+- **Multilingual Support**: Configured with i18n, mock data translation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Setup
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone the repository
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   ```sh
+   git clone https://github.com/yuriiyablonskyi/nft-landing
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Navigate to the project directory**:
+   ```sh
+   cd nft-landing
+   ```
+
+1. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+1. Start the project:
+
+   ```sh
+   npm run dev
+   ```
+
+1. Access the application in your browser
+
+### Prerequisites
+
+- Node.js (v14+)
+- npm (see `package.json` for specific versions)
+
+## 📦 Deployment
+Deployed via AWS:
+1. **S3**: Static site hosting
+1. **CloudFront**: Content delivery
+1. **SSL**: Managed with AWS ACM for secure custom domain
+
+## 🌐 Live
+- **Custom Domain:** https://nft-landing.yuriiyablonskyi.tech/
+- **AWS CloudFront Domain:** https://d2dizwhu69azq2.cloudfront.net/
+
+
+## 📬 Contact
+
+- **📧 Email**: yuriiyablonskyi.i@gmail.com
+- **🔗 LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yuriiyablonskyi)
+
+---
+
+_Created as a professional development project to demonstrate and refine frontend and AWS skills._

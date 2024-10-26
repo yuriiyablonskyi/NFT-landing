@@ -1,0 +1,181 @@
+{
+  "layout": {
+    "header": {
+      "logoAlt": "логотип",
+      "menu": {
+        "marketplace": "Маркетплейс",
+        "rankings": "Рейтинги",
+        "connectWallet": "Підключити гаманець",
+        "buttonText": "Зареєструватися"
+      }
+    },
+    "footer": {
+      "logo": {
+        "logoAlt": "логотип",
+        "description": "Інтерфейс NFT маркетплейсу, створений за допомогою Anima для Figma"
+      },
+      "social": {
+        "joinCommunity": "Приєднуйтесь до нашої спільноти",
+        "links": {
+          "discordAlt": "Іконка Discord",
+          "youtubeAlt": "Іконка Youtube",
+          "twitterAlt": "Іконка Twitter",
+          "instagramdAlt": "Іконка Instagram"
+        }
+      },
+      "explore": {
+        "title": "Досліджуйте",
+        "links": {
+          "marketplace": "Маркетплейс",
+          "rankings": "Рейтинги",
+          "connectWallet": "Підключити гаманець"
+        }
+      },
+      "newsletter": {
+        "title": "Приєднуйтесь до нашого щотижневого дайджесту",
+        "description": "Отримуйте ексклюзивні акції та оновлення прямо на вашу пошту",
+        "form": {
+          "inputPlaceholder": "Введіть ваш email тут",
+          "buttonText": "Підписатися"
+        }
+      }
+    }
+  },
+  "sections": {
+    "heroSection": {
+      "title": "Відкрийте для себе цифрове мистецтво та збирайте NFT",
+      "subtitle": "Інтерфейс NFT маркетплейсу, створений за допомогою Anima для Figma. Збирайте, купуйте та продавайте мистецтво від більш ніж 20 тисяч NFT художників",
+      "buttonText": "Розпочати",
+      "info": {
+        "totalSale": "Загальний продаж",
+        "auctions": "Аукціони",
+        "artists": "Художники"
+      },
+      "img": {
+        "label": "Прогулянка у космосі",
+        "imgAlt": "Дитина-астронавт",
+        "iconAlt": "іконка користувача"
+      }
+    },
+    "gallerySection": {
+      "header": {
+        "title": "Трендова колекція",
+        "subtitle": "Перегляньте нашу щотижнево оновлювану трендову колекцію"
+      },
+      "items": {
+        "dsgnAnimals": {
+          "label": "DSGN Тварини"
+        },
+        "magicMushrooms": {
+          "label": "Магічні гриби"
+        },
+        "discoMachines": {
+          "label": "Диско Машини"
+        }
+      }
+    },
+    "creatorsSection": {
+      "header": {
+        "title": "Топ творці",
+        "subtitle": "Перегляньте найкращих творців на NFT маркетплейсі"
+      },
+      "totalSalesLabel": "Загальний продаж",
+      "buttonText": "Переглянути рейтинги"
+    },
+    "categoriesSection": {
+      "header": {
+        "title": "Перегляньте категорії"
+      },
+      "items": {
+        "art": {
+          "label": "Мистецтво"
+        },
+        "collectibles": {
+          "label": "Колекційні предмети"
+        },
+        "music": {
+          "label": "Музика"
+        },
+        "photography": {
+          "label": "Фотографія"
+        },
+        "video": {
+          "label": "Відео"
+        },
+        "utility": {
+          "label": "Утиліта"
+        },
+        "sport": {
+          "label": "Спорт"
+        },
+        "virtualWorlds": {
+          "label": "Віртуальні світи"
+        }
+      }
+    },
+    "showcaseSection": {
+      "header": {
+        "title": "Відкрийте для себе більше NFT",
+        "subtitle": "Досліджуйте нові трендові NFT"
+      },
+      "buttonText": "Переглянути всі",
+      "cardInfo": {
+        "price": "ціна",
+        "highestBid": "Найвища ставка"
+      },
+      "items": {
+        "distantGalaxy": {
+          "label": "Далека Галактика"
+        },
+        "lifeOnEdena": {
+          "label": "Життя на Едені"
+        },
+        "astroFiction": {
+          "label": "Астро Фантастика"
+        }
+      }
+    },
+    "countdownSection": {
+      "title": "Магічні гриби",
+      "buttonText": "Переглянути NFT",
+      "timer": {
+        "title": "Аукціон закінчується через",
+        "time": {
+          "hours": "Години",
+          "minutes": "Хвилини",
+          "seconds": "Секунди"
+        }
+      }
+    },
+    "guideSection": {
+      "header": {
+        "title": "Як це працює",
+        "subtitle": "Дізнайтеся, як розпочати"
+      },
+      "items": {
+        "wallet": {
+          "title": "Налаштуйте свій гаманець",
+          "text": "Налаштуйте свій вибраний гаманець. Підключіть його до Animarket, натиснувши на іконку гаманця у верхньому правому куті"
+        },
+        "collection": {
+          "title": "Створіть колекцію",
+          "text": "Завантажте свої роботи та налаштуйте свою колекцію. Додайте опис, соціальні посилання та стартову ціну"
+        },
+        "earning": {
+          "title": "Почніть заробляти",
+          "text": "Виберіть між аукціонами та списками з фіксованою ціною. Почніть заробляти, продаючи свої NFT або обмінюючи інші"
+        }
+      }
+    },
+    "subscriptionSection": {
+      "header": {
+        "title": "Приєднуйтесь до нашого щотижневого дайджесту",
+        "subtitle": "Отримуйте ексклюзивні акції та оновлення прямо на вашу пошту"
+      },
+      "form": {
+        "inputPlaceholder": "Введіть ваш email тут",
+        "buttonText": "Підписатися"
+      }
+    }
+  }
+}

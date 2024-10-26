@@ -1,0 +1,72 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  padding: 80px 0
+  @media (max-width: $breakpoint-large)
+    padding: 40px 0
+
+.galleryList
+  gap: 30px
+  @include flex(space-between, center)
+  @media (max-width: $breakpoint-medium)
+    flex-direction: column
+
+  &__item
+    overflow: hidden
+    max-width: 330px
+    width: 100%
+    &:nth-child(3)
+      @media (max-width: $breakpoint-large)
+        display: none
+    &:nth-child(2)
+      @media (max-width: $breakpoint-medium)
+        display: none
+
+  &__mainImg
+    width: 100%
+    height: auto
+    max-width: 330px
+    max-height: 330px
+    margin-bottom: 15px
+    object-fit: cover
+    display: block
+    border-radius: 20px
+
+  &__images
+    margin-bottom: 15px
+    @include flex(space-between, center)
+
+  &__miniImg,
+  &__link
+    width: calc((100% - 30px) / 3)
+    display: block
+    object-fit: cover
+    border-radius: 20px
+
+  &__link
+    aspect-ratio: 1 / 1
+    background-color: $cta
+    color: $white
+    font-family: 'Space Mono'
+    font-size: 22px
+    font-weight: 700
+    @include flex(center, center)
+
+  &__title
+    font-weight: 600
+    font-size: 22px
+    line-height: 1.4
+    margin-bottom: 10px
+
+  &__userIcon
+    width: 24px
+    height: 24px
+    margin-right: 12px
+    border-radius: 50%
+
+  &__userLabel
+    font-size: 16px
+    line-height: 1.4
+
+  &__username
+    @include flex(null, center)

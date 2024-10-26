@@ -1,0 +1,57 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  padding: 80px 0
+  @media (max-width: $breakpoint-large)
+    padding: 40px 0 23px
+
+.guideList
+  @include flex(space-between, null)
+  margin-top: -12px
+  gap: 30px
+  @media (max-width: $breakpoint-medium)
+    flex-direction: column
+    gap: 20px
+
+  &__item
+    @include flex(null, center)
+    width: calc((100% - 60px) / 3)
+    flex-direction: column
+    padding: 10px 30px 30px
+    text-align: center
+    border-radius: 20px
+    background-color: $gray
+    @media (max-width: $breakpoint-large)
+      padding: 10px 20px 30px
+    @media (max-width: $breakpoint-medium)
+      padding: 20px
+      width: 100%
+      flex-direction: row
+      text-align: left
+
+  &__img
+    width: 100%
+    height: auto
+    max-width: 250px
+    max-height: 250px
+    margin-bottom: 20px
+    object-fit: contain
+    @media (max-width: $breakpoint-medium)
+      margin-bottom: 0
+      margin-right: 20px
+      max-width: 35%
+
+  &__title
+    font-weight: 600
+    margin-bottom: 7px
+    text-transform: capitalize
+    font-size: 22px
+    line-height: 1.4
+    @media (max-width: $breakpoint-small)
+      font-size: 16px
+
+  &__text
+    font-size: 16px
+    line-height: 1.4
+    @media (max-width: $breakpoint-small)
+      font-size: 12px

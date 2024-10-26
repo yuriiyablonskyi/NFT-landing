@@ -1,0 +1,29 @@
+@import '../../styles/main.sass'
+
+.buttonPurple,
+.buttonWhite
+  @include flex(center, center)
+  height: 60px
+  padding: 0 48px
+  border-radius: 20px
+  border: none
+  font-size: 16px
+  font-weight: 600
+  line-height: 1.4
+  text-transform: capitalize
+  transition: $transition
+  @media (max-width: $breakpoint-medium)
+    width: 100%
+
+.buttonPurple
+  background-color: $cta
+  color: $white
+
+.buttonWhite
+  background-color: $white
+  color: $black
+
+.icon
+  margin-right: 12px
+  width: 20px
+  height: 20px

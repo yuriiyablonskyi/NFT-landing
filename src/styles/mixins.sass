@@ -1,0 +1,8 @@
+@mixin flex($main-axis: null, $transverse-axis: null)
+  display: flex
+
+  @if $main-axis != null
+    justify-content: $main-axis
+
+  @if $transverse-axis != null
+    align-items: $transverse-axis

@@ -1,0 +1,79 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  padding: 80px 0
+  @media (max-width: $breakpoint-large)
+    padding: 40px 0
+
+.title
+  margin-bottom: 60px
+  @media (max-width: $breakpoint-medium)
+    margin-bottom: 40px
+    font-weight: 600
+    font-size: 38px
+    line-height: 1.2
+
+.categoriesList
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  gap: 30px
+  @media (max-width: $breakpoint-medium)
+    gap: 20px
+
+  &__item
+    width: calc((100% - 90px) / 4)
+    border-radius: 20px
+    overflow: hidden
+    background-color: $gray
+    &:hover .categoriesList__blurOverlay
+      backdrop-filter: blur(3px)
+    &:hover .categoriesList__img
+      transform: scale(1.04)
+    &:hover .categoriesList__icon
+      transform: translateY(-10px)
+    @media (max-width: $breakpoint-large)
+      width: calc((100% - 60px) / 3)
+    @media (max-width: $breakpoint-medium)
+      width: calc((100% - 20px) / 2)
+    @media (max-width: $breakpoint-extra-small)
+      width: 100%
+
+  &__imageContainer
+    position: relative
+    @include flex(center, center)
+    aspect-ratio: 1 / 1
+    width: 100%
+    overflow: hidden
+
+  &__img
+    position: absolute
+    width: 100%
+    height: 100%
+    object-fit: cover
+    transition: $transition
+
+  &__blurOverlay
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    backdrop-filter: blur(5px)
+    transition: $transition
+
+  &__icon
+    position: relative
+    z-index: 1
+    width: 100%
+    height: 100%
+    max-width: 100px
+    max-height: 100px
+    transition: $transition
+    display: block
+
+  &__label
+    padding: 20px 30px
+    font-weight: 600
+    overflow-wrap: break-word
+    color: $white

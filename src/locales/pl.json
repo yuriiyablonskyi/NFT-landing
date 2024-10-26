@@ -1,0 +1,181 @@
+{
+  "layout": {
+    "header": {
+      "logoAlt": "logo",
+      "menu": {
+        "marketplace": "Rynek",
+        "rankings": "Rankingi",
+        "connectWallet": "Połącz portfel",
+        "buttonText": "Zarejestruj się"
+      }
+    },
+    "footer": {
+      "logo": {
+        "logoAlt": "logo",
+        "description": "Interfejs rynku NFT stworzony za pomocą Anima dla Figma"
+      },
+      "social": {
+        "joinCommunity": "Dołącz do naszej społeczności",
+        "links": {
+          "discordAlt": "Ikona Discord",
+          "youtubeAlt": "Ikona Youtube",
+          "twitterAlt": "Ikona Twitter",
+          "instagramdAlt": "Ikona Instagram"
+        }
+      },
+      "explore": {
+        "title": "Eksploruj",
+        "links": {
+          "marketplace": "Rynek",
+          "rankings": "Rankingi",
+          "connectWallet": "Połącz portfel"
+        }
+      },
+      "newsletter": {
+        "title": "Dołącz do naszego cotygodniowego biuletynu",
+        "description": "Otrzymuj ekskluzywne promocje i aktualizacje bezpośrednio na swoją skrzynkę odbiorczą",
+        "form": {
+          "inputPlaceholder": "Wpisz swój email tutaj",
+          "buttonText": "Subskrybuj"
+        }
+      }
+    }
+  },
+  "sections": {
+    "heroSection": {
+      "title": "Odkryj cyfrową sztukę i kolekcjonuj NFT",
+      "subtitle": "Interfejs rynku NFT stworzony za pomocą Anima dla Figma. Zbieraj, kupuj i sprzedawaj sztukę od ponad 20 tysięcy artystów NFT",
+      "buttonText": "Zaczynaj",
+      "info": {
+        "totalSale": "Całkowita sprzedaż",
+        "auctions": "Aukcje",
+        "artists": "Artyści"
+      },
+      "img": {
+        "label": "Spacer kosmiczny",
+        "imgAlt": "Dziecko astronauta",
+        "iconAlt": "ikona użytkownika"
+      }
+    },
+    "gallerySection": {
+      "header": {
+        "title": "Kolekcja trendów",
+        "subtitle": "Sprawdź naszą cotygodniową zaktualizowaną kolekcję trendów"
+      },
+      "items": {
+        "dsgnAnimals": {
+          "label": "DSGN Zwierzęta"
+        },
+        "magicMushrooms": {
+          "label": "Magiczne Grzyby"
+        },
+        "discoMachines": {
+          "label": "Disco Maszyny"
+        }
+      }
+    },
+    "creatorsSection": {
+      "header": {
+        "title": "Najlepsi twórcy",
+        "subtitle": "Sprawdź najwyżej ocenianych twórców na rynku NFT"
+      },
+      "totalSalesLabel": "Całkowita sprzedaż",
+      "buttonText": "Zobacz rankingi"
+    },
+    "categoriesSection": {
+      "header": {
+        "title": "Przeglądaj kategorie"
+      },
+      "items": {
+        "art": {
+          "label": "Sztuka"
+        },
+        "collectibles": {
+          "label": "Kolekcje"
+        },
+        "music": {
+          "label": "Muzyka"
+        },
+        "photography": {
+          "label": "Fotografia"
+        },
+        "video": {
+          "label": "Wideo"
+        },
+        "utility": {
+          "label": "Użyteczność"
+        },
+        "sport": {
+          "label": "Sport"
+        },
+        "virtualWorlds": {
+          "label": "Wirtualne Światy"
+        }
+      }
+    },
+    "showcaseSection": {
+      "header": {
+        "title": "Odkryj więcej NFT",
+        "subtitle": "Eksploruj nowe trendujące NFT"
+      },
+      "buttonText": "Zobacz wszystko",
+      "cardInfo": {
+        "price": "cena",
+        "highestBid": "Najwyższa oferta"
+      },
+      "items": {
+        "distantGalaxy": {
+          "label": "Odległa Galaktyka"
+        },
+        "lifeOnEdena": {
+          "label": "Życie na Edenie"
+        },
+        "astroFiction": {
+          "label": "Astro Fikcja"
+        }
+      }
+    },
+    "countdownSection": {
+      "title": "Magiczne Grzyby",
+      "buttonText": "Zobacz NFT",
+      "timer": {
+        "title": "Aukcja kończy się za",
+        "time": {
+          "hours": "Godziny",
+          "minutes": "Minuty",
+          "seconds": "Sekundy"
+        }
+      }
+    },
+    "guideSection": {
+      "header": {
+        "title": "Jak to działa",
+        "subtitle": "Dowiedz się, jak zacząć"
+      },
+      "items": {
+        "wallet": {
+          "title": "Skonfiguruj swój portfel",
+          "text": "Skonfiguruj wybrany przez siebie portfel. Połącz go z Animarket, klikając ikonę portfela w prawym górnym rogu"
+        },
+        "collection": {
+          "title": "Stwórz kolekcję",
+          "text": "Prześlij swoje prace i skonfiguruj swoją kolekcję. Dodaj opis, linki do mediów społecznościowych i cenę minimalną"
+        },
+        "earning": {
+          "title": "Zacznij zarabiać",
+          "text": "Wybierz między aukcjami a listami o stałej cenie. Zacznij zarabiać, sprzedając swoje NFT lub handlując innymi"
+        }
+      }
+    },
+    "subscriptionSection": {
+      "header": {
+        "title": "Dołącz do naszego cotygodniowego biuletynu",
+        "subtitle": "Otrzymuj ekskluzywne promocje i aktualizacje bezpośrednio na swoją skrzynkę odbiorczą"
+      },
+      "form": {
+        "inputPlaceholder": "Wpisz swój email tutaj",
+        "buttonText": "Subskrybuj"
+      }
+    }
+  }
+}

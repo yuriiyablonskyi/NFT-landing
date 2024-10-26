@@ -1,0 +1,97 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  @include flex(space-between, null)
+  padding: 200px 0 100px
+  @media (max-width: $breakpoint-medium)
+    flex-direction: column
+    padding: 140px 0 40px
+
+  &__description
+    width: 50%
+    padding-right: 15px
+    @media (max-width: $breakpoint-medium)
+      order: 1
+      width: 100%
+      padding-right: 0
+
+  &__image
+    display: flex
+    width: 50%
+    padding-left: 15px
+    overflow: hidden
+    flex-direction: column
+    @media (max-width: $breakpoint-medium)
+      order: 0
+      width: 100%
+      margin-bottom: 40px
+      padding-left: 0
+
+.title
+  font-size: 67px
+  font-weight: 600
+  line-height: 1.1
+  margin-bottom: 20px
+  text-transform: capitalize
+  @media (max-width: $breakpoint-medium-large)
+    font-size: 38px
+    line-height: 1.2
+  @media (max-width: $breakpoint-extra-small)
+    font-size: 28px
+    margin-bottom: 10px
+    line-height: 1.4
+
+.subtitle
+  margin-bottom: 30px
+  text-transform: capitalize
+  @media (max-width: $breakpoint-medium-large)
+    margin-bottom: 20px
+
+.info
+  @include flex(space-between, null)
+  margin-top: 30px
+  max-width: 88%
+  @media (max-width: $breakpoint-medium)
+    max-width: 100%
+
+  &__count
+    font-family: 'Space Mono', system-ui
+    font-size: 28px
+    font-weight: 700
+    line-height: 1.4
+    @media (max-width: $breakpoint-medium-large)
+      font-size: 22px
+      line-height: 1.6
+
+  &__description
+    font-size: 24px
+    line-height: 1.6
+    @media (max-width: $breakpoint-medium-large)
+      font-size: 16px
+      line-height: 1.4
+
+.img
+  border-radius: 20px 20px 0 0
+
+  &__info
+    padding: 22px 20px
+    border-radius: 0 0 20px 20px
+    background-color: $gray
+
+  &__title
+    font-size: 22px
+    font-weight: 600
+    margin-bottom: 10px
+    line-height: 1.4
+
+  &__user
+    @include flex(null, center)
+
+  &__icon
+    margin-right: 12px
+    width: 24px
+    height: 24px
+
+  &__label
+    font-size: 16px
+    line-height: 1.4

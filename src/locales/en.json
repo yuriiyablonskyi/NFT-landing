@@ -1,0 +1,181 @@
+{
+  "layout": {
+    "header": {
+      "logoAlt": "logo",
+      "menu": {
+        "marketplace": "Marketplace",
+        "rankings": "Rankings",
+        "connectWallet": "Connect a wallet",
+        "buttonText": "Sign Up"
+      }
+    },
+    "footer": {
+      "logo": {
+        "logoAlt": "logo",
+        "description": "NFT marketplace UI created with Anima for Figma"
+      },
+      "social": {
+        "joinCommunity": "Join our community",
+        "links": {
+          "discordAlt": "Discord Icon",
+          "youtubeAlt": "Youtube Icon",
+          "twitterAlt": "Twitter Icon",
+          "instagramdAlt": "Instagram Icon"
+        }
+      },
+      "explore": {
+        "title": "Explore",
+        "links": {
+          "marketplace": "Marketplace",
+          "rankings": "Rankings",
+          "connectWallet": "Connect a wallet"
+        }
+      },
+      "newsletter": {
+        "title": "Join our weekly digest",
+        "description": "Get exclusive promotions & updates straight to your inbox",
+        "form": {
+          "inputPlaceholder": "Enter your email here",
+          "buttonText": "Subscribe"
+        }
+      }
+    }
+  },
+  "sections": {
+    "heroSection": {
+      "title": "Discover digital art & Collect NFTs",
+      "subtitle": "NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists",
+      "buttonText": "Get Started",
+      "info": {
+        "totalSale": "Total Sale",
+        "auctions": "Auctions",
+        "artists": "Artists"
+      },
+      "img": {
+        "label": "Space Walking",
+        "imgAlt": "Astronaut Kid",
+        "iconAlt": "user icon"
+      }
+    },
+    "gallerySection": {
+      "header": {
+        "title": "Trending Collection",
+        "subtitle": "Checkout our weekly updated trending collection"
+      },
+      "items": {
+        "dsgnAnimals": {
+          "label": "DSGN Animals"
+        },
+        "magicMushrooms": {
+          "label": "Magic Mushrooms"
+        },
+        "discoMachines": {
+          "label": "Disco Machines"
+        }
+      }
+    },
+    "creatorsSection": {
+      "header": {
+        "title": "Top creators",
+        "subtitle": "Checkout Top Rated Creators on the NFT Marketplace"
+      },
+      "totalSalesLabel": "Total Sales",
+      "buttonText": "View Rankings"
+    },
+    "categoriesSection": {
+      "header": {
+        "title": "Browse Categories"
+      },
+      "items": {
+        "art": {
+          "label": "Art"
+        },
+        "collectibles": {
+          "label": "Collectibles"
+        },
+        "music": {
+          "label": "Music"
+        },
+        "photography": {
+          "label": "Photography"
+        },
+        "video": {
+          "label": "Video"
+        },
+        "utility": {
+          "label": "Utility"
+        },
+        "sport": {
+          "label": "Sport"
+        },
+        "virtualWorlds": {
+          "label": "Virtual Worlds"
+        }
+      }
+    },
+    "showcaseSection": {
+      "header": {
+        "title": "Discover More NFTs",
+        "subtitle": "Explore new trending NFTs"
+      },
+      "buttonText": "See All",
+      "cardInfo": {
+        "price": "price",
+        "highestBid": "Highest Bid"
+      },
+      "items": {
+        "distantGalaxy": {
+          "label": "Distant Galaxy"
+        },
+        "lifeOnEdena": {
+          "label": "Life On Edena"
+        },
+        "astroFiction": {
+          "label": "Astro Fiction"
+        }
+      }
+    },
+    "countdownSection": {
+      "title": "Magic Mashrooms",
+      "buttonText": "See NFT",
+      "timer": {
+        "title": "Auction ends in",
+        "time": {
+          "hours": "Hours",
+          "minutes": "Minutes",
+          "seconds": "Seconds"
+        }
+      }
+    },
+    "guideSection": {
+      "header": {
+        "title": "How it works",
+        "subtitle": "Find out how to get started"
+      },
+      "items": {
+        "wallet": {
+          "title": "Setup Your wallet",
+          "text": "Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner"
+        },
+        "collection": {
+          "title": "Create Collection",
+          "text": "Upload your work and setup your collection. Add a description, social links and floor price"
+        },
+        "earning": {
+          "title": "Start Earning",
+          "text": "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others"
+        }
+      }
+    },
+    "subscriptionSection": {
+      "header": {
+        "title": "Join our weekly digest",
+        "subtitle": "Get exclusive promotions & updates straight to your inbox"
+      },
+      "form": {
+        "inputPlaceholder": "Enter your email here",
+        "buttonText": "Subscribe"
+      }
+    }
+  }
+}

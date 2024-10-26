@@ -1,0 +1,64 @@
+@import '../../styles/main.sass'
+
+.wrapper
+  position: relative
+
+.select
+  padding: 16px 22px
+  border-radius: 15px
+  color: $white
+  margin-right: 20px
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5)
+  cursor: pointer
+  position: relative
+  font-weight: 600
+  z-index: 100
+  transition: $transition
+  @include flex(null, center)
+  @media (max-width: $breakpoint-medium-large)
+    padding: 20px 30px
+    margin: 25px 0 50px
+
+  &_open
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.5)
+    transform: translateY(2px)
+
+  &__icon
+    margin-right: 16px
+    width: 18px
+    height: 18px
+
+  &__value
+    font-size: 16px
+    text-transform: uppercase
+    @media (max-width: $breakpoint-medium-large)
+      font-size: 18px
+
+  &__menu
+    position: absolute
+    top: 60px
+    left: -40px
+    z-index: 3
+    padding: 10px
+    border-radius: 20px
+    width: calc(100% + 60px)
+    background-color: $black
+    text-align: center
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+    font-weight: 600
+    @media (max-width: $breakpoint-medium-large)
+      top: 95px
+      left: -67px
+      width: calc(130% + 100px)
+
+  &__item
+    padding: 8px 16px
+    border-radius: 10px
+    font-size: 18px
+    cursor: pointer
+    transition: $transition
+    @media (max-width: $breakpoint-medium-large)
+      padding: 10px 16px
+
+    &:hover
+      background-color: $gray
